@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Dashboard</title>
+<link rel="stylesheet" href="/css/dashboard.css">
+
+</head>
+
+<body>
+
+<div class="sidebar">
+    <h2>Hostel System</h2>
+    <ul>
+        <li><a th:href="@{/dashboard}">Dashboard</a></li>
+        <li><a th:href="@{/submit}">Submit Complaint</a></li>
+        <li><a th:href="@{/complaints-page}">View Complaints</a></li>
+        <!-- Logout must be a POST request in Spring Security -->
+        <li>
+            <form class="logout-form" th:action="@{/logout}" method="post" style="display:inline;">
+                <button type="submit">Logout</button>
+            </form>
+        </li>
+    </ul>
+</div>
+
+<div class="main">
+<div class="top-bar">
+<h1>Dashboard</h1>
+<button onclick="logout()" class="logout-btn">Logout</button>
+</div>
+<div class="cards">
+
+<div class="card">
+<h3>Total Complaints</h3>
+<p>10</p>
+</div>
+
+<div class="card">
+<h3>Pending</h3>
+<p>5</p>
+</div>
+
+<div class="card">
+<h3>Resolved</h3>
+<p>5</p>
+</div>
+
+</div>
+
+</div>
+<script>
+	function logout(){
+	localStorage.clear();
+	window.location.href="/";
+	}
+</script>
+</body>
+</html>

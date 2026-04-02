@@ -1,0 +1,35 @@
+Project Title: Hostel Complain Management System
+
+Repository Link: 
+
+Repository Description:
+This repository contains the complete project files including:
+- Source code of the project
+- Executable/software build
+- Screenshots of the working software
+- 10-page PPT explaining the project
+- 150 - second working demo video
+
+Prerequisites to Run the Project:
+- Java JDK 21
+- STS spring boot code editor
+- MySQL Database
+- Any Web Browser like Chrome etc.
+
+Steps to Run the Project:
+1. Import project
+2. Setup MySQL database
+3. Run Spring Boot
+4. Open localhost:8080
+
+Team Members:
+1. 2330422 Nageshwar Kumhar
+2. 2330451 Vinit Kumar
+3. 2430602 Abhijeet Raj
+4. 2430609 Chirantan Chaterjee
+
+Repository Access:
+The repository has been shared with the evaluator via:
+- GitHub access / Drive link permissions
+
+Additional Notes:
