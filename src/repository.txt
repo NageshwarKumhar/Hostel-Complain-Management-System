@@ -1,6 +1,6 @@
 Project Title: Hostel Complain Management System
 
-Repository Link: 
+Repository Link: https://github.com/NageshwarKumhar/Hostel-Complain-Management-System
 
 Repository Description:
 This repository contains the complete project files including:
@@ -29,7 +29,9 @@ Team Members:
 4. 2430609 Chirantan Chaterjee
 
 Repository Access:
-The repository has been shared with the evaluator via:
-- GitHub access / Drive link permissions
+The repository has been shared via GitHub and is publicly accessible at:
+https://github.com/NageshwarKumhar/Hostel-Complain-Management-System
 
 Additional Notes:
+Additional Notes:
+All required files including source code, executable file, screenshots, presentation (PPT), and demo video are included in both the ZIP file and the GitHub repository. The project has been tested and runs successfully with the specified prerequisites.
